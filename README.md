@@ -3,7 +3,7 @@ ABSTRACT
 
 mod_bumpy_life is Apache 2.2 module for setting randam value to
 MaxRequestsPerChild. You can specify range of MaxRequestsPerChild by
-new directive MaxRequestsPerChildMin adn MaxRequestsPerChildMax.
+new directive MaxRequestsPerChildMin and MaxRequestsPerChildMax.
 
 
 INSTALLATION
@@ -21,15 +21,15 @@ or debug build:
 DOCUMENTATION
 ================
 
-Description: set the name minimum value of MaxRequestsPerChild
-Syntax:      MaxRequestsPerChildMin number
-Context:     server config
-Module:      mod_bumpy_life
+    Description: set the name minimum value of MaxRequestsPerChild
+    Syntax:      MaxRequestsPerChildMin number
+    Context:     server config
+    Module:      mod_bumpy_life
 
-Description: set the name maximum value of MaxRequestsPerChild
-Syntax:      MaxRequestsPerChildMax number
-Context:     server config
-Module:      mod_bumpy_life
+    Description: set the name maximum value of MaxRequestsPerChild
+    Syntax:      MaxRequestsPerChildMax number
+    Context:     server config
+    Module:      mod_bumpy_life
 
 Example
 ----------------
